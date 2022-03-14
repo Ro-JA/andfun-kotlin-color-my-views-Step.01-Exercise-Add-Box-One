@@ -46,4 +46,31 @@ limitations under the License. -->
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
+
+    <TextView
+        android:id="@+id/box_free_text"
+        style="@style/WhiteBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/box_four_text"
+        style="@style/WhiteBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_four"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/box_five_text"
+        style="@style/WhiteBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/box_five"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="177dp" />
 </android.support.constraint.ConstraintLayout>
